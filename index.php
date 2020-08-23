@@ -9,21 +9,22 @@
 </head>
 <body>
 	<div id="topHeaderBar">
-
-		<input type="text" name="searchWebSite" id="searchWebSite" placeholder="Enter the text to search here">
+		<div id="searchInputDiv">
+			<input type="text" name="searchWebSite" id="searchWebSite" placeholder="Enter the text to search here">
+		</div>
 		<div id="searchButtonDiv">
+			<button id="searchButton">
+			<img src="searchButton.png" height="20px" width="20px" id="search">
+		</button>
 		</div>
 	<!--	<center> 
 			<?php 
 				echo "Hello world this is sushant and my site is in progress";
 		?>
 	</center> -->
-
 	</div>
 	<div id="imageCenter">
-		<center>
 			<img id="main_picture" src="image.jpg" height="300px" width="400px" alt="Image_not_found">
-		</center>
 	</div>
 	<center>
 		<h1 style="font-size: 30px; font-weight: lighter; color:orange;"> About me </h1>
