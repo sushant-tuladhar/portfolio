@@ -2,50 +2,9 @@
 <html>
 <head>
 	<title>Welcome to my page</title>
+	<link rel="stylesheet" type="text/css" href="styles/index.css">
 	<style type="text/css"> 
-		body{
-			background: #E9EBEE;
-			opacity: 1;
-		}
-		#topHeaderBar{
-			margin:-15px -25px -25px -15px;
-			width: 101vw;
-			height:60px;
-			background: #29303B;
-			position: overlay;
-			display: block;
-		}
-		center{
-			margin-top: -15px;
-		}
-		#introduction{
-			margin-top: 15px;
-		}
-		#imageCenter{
-			margin-top: 35px;
-			text-align: center;
-			width: 200px;
-			margin-left: 40%;
-		}
-		#main_picture{
-			border: 2px solid black;
-			border-radius: 5px;
-		}
-		#searchWebSite{
-			margin-left: 10%;
-			background: #E9EBEE;
-			border-radius: 5px;
-			height: 25px;
-			width: 20%;
-			margin-top: 17px;
-			font-size: 13px;
-			padding: 1px;
-			padding-left: 10px;
-
-		}
-		#searchButtonDiv{
-			
-		}
+		
 	</style>
 </head>
 <body>
@@ -59,12 +18,16 @@
 				echo "Hello world this is sushant and my site is in progress";
 		?>
 	</center> -->
+
 	</div>
 	<div id="imageCenter">
 		<center>
-			<img id="main_picture" src="image.jpg" height="500px"  alt="Image_not_found">
+			<img id="main_picture" src="image.jpg" height="300px" width="400px" alt="Image_not_found">
 		</center>
 	</div>
+	<center>
+		<h1 style="font-size: 30px; font-weight: lighter; color:orange;"> About me </h1>
+	</center>
 	<div id="introduction">
 		<center>
 		<code>
@@ -74,6 +37,14 @@
 			<br>
 			I have been working as an QA Engineer in SynergyTech Software for the past 3 years. 
 		</code>
+	</center>
+		<br>
+	<center>
+		<p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p> <p> It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+
+		<p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p> <p> It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+
+		<p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p> <p> It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
 	</center>
 	</div>
 	
