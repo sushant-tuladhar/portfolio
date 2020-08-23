@@ -3,6 +3,7 @@
 <head>
 	<title>Welcome to my page</title>
 	<link rel="stylesheet" type="text/css" href="styles/index.css">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Sofia">
 	<style type="text/css"> 
 		
 	</style>
@@ -27,7 +28,7 @@
 			<img id="main_picture" src="image.jpg" height="300px" width="400px" alt="Image_not_found">
 	</div>
 	<center>
-		<h1 style="font-size: 30px; font-weight: lighter; color:orange;"> About me </h1>
+		<h1 style="font-size: 30px; font-weight: lighter; color:orange; font-family: Sofia"> About me </h1>
 	</center>
 	<div id="introduction">
 		<center>

@@ -70,10 +70,12 @@ body{
 }
 code{
 	color:orange;
+	font-family: Sofia;
+	font-style: italic;
 }
 p{
 	width: 80%;
-	font: Arial;
+	font-family: Sofia;
 	font-style: italic;
 	font-size: 14px;
 	color:orange;
